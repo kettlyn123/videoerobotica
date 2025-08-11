@@ -1,6 +1,6 @@
 body {
-  color: white;
- background: black;
-margin: 0px;
+  color: white;/*define a cor do texto para branco*/
+ background: black;/*define a cor de fundo para preto*/
+margin: 0px;/*remove todas as margens externas do elemento*/
   font-family: "Chakra Petch", sans-serif;/*define a fonte do texto*/
-  margin-bottom: 100px;
+  margin-bottom: 100px;/*adiciona 100px de espaço para baixo do elemento*/
