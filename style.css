@@ -6,21 +6,21 @@ margin: 0px; /*remove todas as margens externas do elemento,colocando ele para o
   margin-bottom: 100px; /*adiciona 100px de espaço para baixo do elemento*/
 }
 .chamada{
-background-rgb(184, 156, 213);
-padding-bottom: 80px;
-padding-top: 80px;
-display: flex;
-justify-content: center;
+background-rgb(184, 156, 213);Define a cor de fundo do elemento para um tom específico de roxo usando valores RGB.
+padding-bottom: 80px; /*Adiciona um espaço de 80 pixels abaixo do conteúdo dentro deste elemento.*/
+padding-top: 80px; /*Adiciona um espaço de 80 pixels acima do conteúdo dentro deste elemento.*/
+display: flex; /*Transforma o elemento em um contêiner flexível, o que permite que seus filhos sejam facilmente alinhados e organizados.*/
+justify-content: center; /*Transforma o elemento em um contêiner flexível, o que permite que seus filhos sejam facilmente alinhados e organizados.*/
 }
 
 .chamada-texto{
-margin-right: 5%;
+margin-right: 5%; /*Adiciona um espaço de 5% da largura do elemento pai à direita deste elemento.*/
 }
 
 h1{
-  font-size: 40px;
+  font-size: /*40px;Define o tamanho do texto para todos <h1>os títulos para 40 pixels.*/
 }
 
 p{
-  font-size: 20px;
+  font-size:/* 20px;Define o tamanho do texto para todos <p>os parágrafos como 20 pixels.*/
 }
