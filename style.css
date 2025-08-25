@@ -14,7 +14,7 @@ justify-content: center; /*Transforma o elemento em um contêiner flexível, o q
 }
 
 .chamada-texto{
-margin-right: 5%; /*Adiciona um espaço de 5% da largura do elemento pai à direita deste elemento.*/
+margin-right:5%; /*Adiciona um espaço de 5% da largura do elemento pai à direita deste elemento.*/
 }
 
 h1{
