@@ -18,9 +18,9 @@ margin-right: 5%; /*Adiciona um espaço de 5% da largura do elemento pai à dire
 }
 
 h1{
-  font-size: /*40px;Define o tamanho do texto para todos <h1>os títulos para 40 pixels.*/
+  font-size:40px; /*Define o tamanho do texto para todos <h1>os títulos para 40 pixels.*/
 }
 
 p{
-  font-size:/* 20px;Define o tamanho do texto para todos <p>os parágrafos como 20 pixels.*/
+  font-size:20px; /*Define o tamanho do texto para todos <p>os parágrafos como 20 pixels.*/
 }
