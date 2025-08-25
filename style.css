@@ -6,7 +6,7 @@ margin: 0px; /*remove todas as margens externas do elemento,colocando ele para o
   margin-bottom: 100px; /*adiciona 100px de espaço para baixo do elemento*/
 }
 .chamada{
-background-rgb(184, 156, 213);/*Define a cor de fundo do elemento para uma cor específico de roxo usando valores RGB.*/
+background:rgb(184, 156, 213); /*Define a cor de fundo do elemento para uma cor específico de roxo usando valores RGB.*/
 padding-bottom: 80px; /*Adiciona um espaço de 80 pixels abaixo do conteúdo dentro deste elemento.*/
 padding-top: 80px; /*Adiciona um espaço de 80 pixels acima do conteúdo dentro deste elemento.*/
 display: flex; /*Transforma o elemento em um contêiner flexível, o que permite que seus filhos , os intens sejam facilmente alinhados e organizados.*/
