@@ -1,57 +1,60 @@
  <!DOCTYPE html>  /*Isto não é uma tag; é uma declaração que informa ao navegador que você está usando HTML5. É a primeira coisa em um documento HTML.*/
-<html lang="pt-br">  /*Este é o elemento raiz que envolve todo o conteúdo da sua página.*/
+<html lang="pt-br">  /*Este é o elemento raiz que envolve todo o conteúdo, indica que o idioma da página é em português do Brasil.*/
  
 <head> /* Esta seção contém metainformações sobre o documento, como o título da página, o conjunto de caracteres e links para folhas de estilo. Essas informações não são exibidas na página em si.*/
-  <meta charset="UTF-8">  
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">  /*Define a codificação de caracteres (UTF-8 permite usar acentos e caracteres especiais).*/
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">/*Faz a página se adaptar a celulares e tablets (responsividade).*/
  
     <title> Site de Robótica</title>  /*Esta tag define o título da página , que aparece na aba do navegador ou na barra de título da janela.*/
- <link rel="stylesheet" href="style.css">  /*Esta tag define o título da página , que aparece na aba do navegador ou na barra de título da janela.*/
-</head>
+ <link rel="stylesheet" href="style.css">  /*Importa um arquivo CSS externo para estilizar a página.No caso, o arquivo se chama style.css.*/
+</head> /*Contém informações sobre a página, que não aparecem para o usuário.*/
  
 <body> /*Este é o contêiner principal para todo o conteúdo visível da sua página, como texto, imagens e vídeos.*/
 <header>Soluções Robóticas</header> /*Uma tag semântica que representa o conteúdo introdutório, geralmente um grupo de recursos de navegação ou um título. É para o topo de uma seção ou página .*/
  
  <section class="chamada">  /*Uma tag genérica e semântica usada para agrupar conteúdo relacionado. Ela define uma seção do documento .*/
    <div class="chamada-texto">  
-     <h1>Trabalhando com Robótica Educacional</h1>  Este é o título mais importante da página. O HTML tem seis níveis de títulos, de <h1>(mais importante) a <h6>(menos importante).
-     <p>#os melhores vídeos que podemos arrumar sobre robótica</p>  Uma tag para um parágrafo de texto .
-     <p> FIQUE ATENTO PARA AS MODIFICAÇÕES </p>  Uma tag para um parágrafo de texto .
+     <h1>Trabalhando com Robótica Educacional</h1> /* Este é o título mais importante da página. O HTML tem seis níveis de títulos, de <h1>(mais importante) a <h6>(menos importante).*/
+     <p>#os melhores vídeos que podemos arrumar sobre robótica</p> /* Uma tag para um parágrafo de texto .*/
+     <p> FIQUE ATENTO PARA AS MODIFICAÇÕES </p>  /*Uma tag para um parágrafo de texto .*/
  
-     </div>  : Um contêiner versátil e genérico usado para dividir uma página em diferentes seções. É frequentemente usado para estilização com CSS.
+     </div>  : /*Um contêiner versátil e genérico usado para dividir uma página em diferentes seções. É frequentemente usado para estilização com CSS.*/
    
 <div>
   <iframe width="560" height="315"  /*Usado para incorporar outro documento (como um vídeo do YouTube) na sua página HTML atual. Cria um contexto de navegação aninhado*/
-src="https://www.youtube.com/embed/LVDnvVUGwV0?si=ah1BZaUxp3INCIKL"
-   title="YouTube video player" frameborder="0"
-   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
-gyroscope; picture-in-picture; web-share"
-   referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+src="https://www.youtube.com/embed/LVDnvVUGwV0?si=ah1BZaUxp3INCIKL" /*Define o endereço do vídeo que será carregado no iframe. O embed é o formato especial que permite incorporar vídeos em páginas.*/
+   title="YouTube video player" frameborder="0" /*Define o título descritivo do iframe (importante para acessibilidade, leitores de tela e SEO). frameborder="0" Indica se haverá uma borda ao redor do vídeo.
+0 = sem borda.*/
+   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; /* Define as permissões que o vídeo pode usar;Permite que o vídeo responda a sensores de movimento; Permite que o vídeo seja reproduzido automaticamente; Permite copiar informações para a área de transferência;Permite a reprodução de mídias protegidas por DRM;.*/
+gyroscope; picture-in-picture; web-share"/*Permite detectar movimentos (em dispositivos móveis);Permite assistir o vídeo em uma janelinha flutuante;Permite o compartilhamento via navegador.*/
+   
+   
+   referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> /* Controla quais informações do site de origem são enviadas ao YouTube quando o vídeo é carregado; Permite que o vídeo seja exibido em tela cheia; Fecha a tag iframe, que é o elemento HTML usado para embutir conteúdo externo (nesse caso, o vídeo do YouTube).*/
  
 </div>
    
 </section>
 
  <section class= "categoria">
-  <h2> O MELHOR DA ROBÓTICA ESTÁ AQUI </h2>  Um título secundário , menos importante que <h1>.
+  <h2> O MELHOR DA ROBÓTICA ESTÁ AQUI </h2>  /*Um título secundário , menos importante que <h1>.*/
   <div class= "categoria-videos">
-  <a href="https://www.youtube.com/watch?v=admjB15|00g">
-   <img src="https://img.youtube.com/vi/admjB15|00g/maxresdefault.jpg"/>
-   </a>   Uma tag de âncora usada para criar hiperlinks. Ao ser clicada, ela leva o usuário para outra página ou para uma parte diferente da mesma página.
-   <a href="https://www.youtube.com/whatch?v=nCmlwcycUj8">
-   <img src="https://img.youtube.com/vi/nCmlwcycUj8/maxresdefault.jpg"/>  Uma tag usada para incorporar uma imagem na página.
+  <a href="https://www.youtube.com/watch?v=admjB15|00g"> /* um link se clicar abre um vídeo no YouTube 
+   <img src="https://img.youtube.com/vi/admjB15|00g/maxresdefault.jpg"/>/* mostra uma imagem, nesse caso uma miniatura do vídeo*/
+   </a>   /*Uma tag de âncora usada para criar hiperlinks. Ao ser clicada, ela leva o usuário para outra página ou para uma parte diferente da mesma página.*/
+   <a href="https://www.youtube.com/whatch?v=nCmlwcycUj8"> /* um link se clicar abre um video no YouTube*/
+   <img src="https://img.youtube.com/vi/nCmlwcycUj8/maxresdefault.jpg"/>  /*Uma tag usada para incorporar uma imagem na página.*/
 
    </a>
-    <a href="https://www.youtube.com/watch?v=FvRmEapoHRc">
-  <img src="https://img.youtube.com/vi/FvRmEapoHRc/maxresdefault.jpg"/> Uma tag usada para incorporar uma imagem na página.
+    <a href="https://www.youtube.com/watch?v=FvRmEapoHRc"> /* um link se clicar abre um vídeo no YouTube*/
+  <img src="https://img.youtube.com/vi/FvRmEapoHRc/maxresdefault.jpg"/> /*Uma tag usada para incorporar uma imagem na página.*/
 
      <a/>
-       <a href="https://www.youtube.com/watch?v=Ipkw_hWW-Hw">
-  <img src="https://img.youtube.com/vi/Ipkw_hWW-Hw/maxresdefault.jpg"/>  Uma tag usada para incorporar uma imagem na página.
+       <a href="https://www.youtube.com/watch?v=Ipkw_hWW-Hw"> /* um link se clicar abre um vídeo jo YouTube*/
+  <img src="https://img.youtube.com/vi/Ipkw_hWW-Hw/maxresdefault.jpg"/>  /*Uma tag usada para incorporar uma imagem na página.*/
 
         <a/>
-          <a href="https://www.youtube.com/watch?v=d4DzMNGoyis">
-  <img src="https://img.youtube.com/vi/d4DzMNGoyis/maxresdefault.jpg"/> Uma tag usada para incorporar uma imagem na página.
+          <a href="https://www.youtube.com/watch?v=d4DzMNGoyis"> /* um link se clicar abre um vídeo no YouTube*/
+  <img src="https://img.youtube.com/vi/d4DzMNGoyis/maxresdefault.jpg"/> /*Uma tag usada para incorporar uma imagem na página.*/
 
            <a/>
             <div/>
@@ -59,5 +62,5 @@ gyroscope; picture-in-picture; web-share"
              
   </section>
             
- </body>
-</html>
+ </body> /* fecha o corpo da página*/
+</html> /* fecha o documento html*/
