@@ -5,11 +5,11 @@ margin: 0px; /*remove todas as margens externas do elemento,colocando ele para o
   font-family: "Chakra Petch", sans-serif; /*define a fonte do texto*/
   margin-bottom: 100px; /*adiciona 100px de espaço para baixo do elemento*/
 }
-header{
-  border-bottom:solid 2px rgb(42, 122, 228);
-  padding: 20px;
-    font-size: 32px;
-   color: rgb(42, 122, 228);
+header{ /* Seleciona o elemento <header> da página. É uma tag usada para definir o cabeçalho de uma página ou seção.Logo do site;Menu de navegação;Título da página;Outros elementos de introdução*/
+  border-bottom:solid 2px rgb(42, 122, 228);/* Adiciona uma borda sólida azul de 2 pixels na parte inferior do header.*/
+  padding: 20px;/* Adiciona 20 pixels de espaço interno em todos os lados do header.*/
+    font-size: 32px;/* Define o tamanho da fonte do texto em 32 pixels.*/
+   color: rgb(42, 122, 228);/* Define o tamanho da fonte do texto em 32 pixels.*/
   
 .chamada{
 background:rgb(184, 156, 213); /*Define a cor de fundo do elemento para uma cor específico de roxo usando valores RGB.*/
@@ -31,27 +31,28 @@ p{
   font-size:20px; /*Define o tamanho do texto para todos <p>os parágrafos como 20 pixels.*/
 }
   .categoria-videos {
-    display:flex;
-    overflow-x: auto;
-    gap: 10px;
+    display:flex;/*Define que o elemento será um container flexível, permitindo organizar seus elementos filhos em linha ou coluna, facilitando alinhamento e espaçamento.*/
+    overflow-x: auto;/* Permite que o conteúdo que ultrapassa a largura do container seja rolável horizontalmente, aparecendo uma barra de rolagem se necessário*/
+    gap: 10px;/* Define o espaço de 10 pixels entre os elementos filhos do container flex*/
   }
 
-.categoria {
-padding-left: 20px;
-  padding-right: 20px;
-  margin-top: 50px;
+.categoria { /* Seleciona todos os elementos com a classe categoria.*/
+padding-left: 20px;/* Adiciona 20 pixels de espaço interno à esquerda e à direita do elemento.*/
+  padding-right: 20px;/* Adiciona 20 pixels de espaço interno à esquerda e à direita do elemento.*/
+  margin-top: 50px;/* Adiciona 50 pixels de espaço externo acima do elemento.*/
 }
 
-.categoria-videos img {
-  opacity: 0.5;
-  height: 200px;
+.categoria-videos img { /* Seleciona todas as imagens (img) dentro de um elemento com a classe categoria-videos.*/
+  opacity: 0.5;/* Define a transparência da imagem em 50%.*/
+  height: 200px;/* Define a altura da imagem em 200 pixels.*/
 }
   
-.categoria-videos img:hover {
-  opacity: 1.0;
-  border: 3px solid green;
+.categoria-videos img:hover { /* Aplica estilo quando o usuário passa o mouse sobre a imagem.*/
+  opacity: 1.0;/* Torna a imagem totalmente opaca (100% visível).
+  */
+  border: 3px solid green; /* Adiciona uma borda verde de 3 pixels ao redor da imagem.*/
 }
-  .categoria h2 {
-    color: rgb(42, 122, 228);
+  .categoria h2 { /* Seleciona todos os títulos <h2> dentro de elementos com a classe categoria.*/
+    color: rgb(42, 122, 228);/* Define a cor do texto usando valores RGB (um azul específico).*/
   }
   
